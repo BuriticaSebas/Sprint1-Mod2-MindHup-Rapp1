@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Recursos_Amazing_Events_Task_1/favicon.png" type="image/x-icon">
+  <title>Amazin Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="mains.css">
+</head>
+
+<body>
+  <!-- -------------------Header---------------- -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-0">
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="Recursos_Amazing_Events_Task_1/amazing_brand.png"
+                  alt="Logotipo" id="logo" /></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="upcoming.html">Upcoming Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="past.html">Past Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="stats.html">Stats</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="carrusel">
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Recursos_Amazing_Events_Task_1/optional_banner_1.jpg" class="d-block w-100 img-fluid home-image"
+              alt="Home Banner">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">Home</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Recursos_Amazing_Events_Task_1/optional_banner_2.jpg" class="d-block w-100 img-fluid home-image"
+              alt="Upcoming Events Banner">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">Upcoming Events</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Recursos_Amazing_Events_Task_1/optional_banner_4.jpg" class="d-block w-100 img-fluid home-image"
+              alt="Past Events Banner">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">Past Events</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Recursos_Amazing_Events_Task_1/optional_banner_3.jpg" class="d-block w-100 img-fluid home-image"
+              alt="Contact Banner">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">Contact</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Recursos_Amazing_Events_Task_1/optional_banner_5.jpg" class="d-block w-100 img-fluid home-image" alt="Melo">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">Stats</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+    <!-- checkbox - carrusel -->
+    <section class="checkbox">
+      <div class="container-fluid mt-3">
+        <div class="row">
+          <div class="col-12 col-md-8 d-flex overflow-auto checkbox-container mb-3 mb-md-0">
+            <div class="form-check m-2">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" check>
+              <label class="form-check-label" for="flexCheckChecked">
+                Food Fair
+              </label>
+            </div>
+            <div class="form-check  m-2">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" check>
+              <label class="form-check-label" for="flexCheckChecked">
+                Museum
+              </label>
+            </div>
+            <div class="form-check  m-2">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" check>
+              <label class="form-check-label" for="flexCheckChecked">
+                Costume Party
+              </label>
+            </div>
+            <div class="form-check m-2 ">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" check>
+              <label class="form-check-label" for="flexCheckChecked">
+                Music Concert
+              </label>
+            </div>
+            <div class="form-check m-2 ">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" check>
+              <label class="form-check-label" for="flexCheckChecked">
+                Book Exchange
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <form class="d-flex p-0">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col d-flex justify-content-center flex-wrap  gap-5 mt-3 ">
+            <div class="card">
+              <img src="Recursos_Amazing_Events_Task_1/food_fair.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold text-center mb-auto">Festival of the collectivities</h5>
+                <p class="card-text text-center">Enjoy your favorite dishes from different countries in a unique event
+                  for the whole family.</p>
+                <div class="mt-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-0">5.00 $</p>
+                    <a href="details.html" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <img src="Recursos_Amazing_Events_Task_1/costume_party.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold text-center mb-auto">Halloween Night</h5>
+                <p class="card-text text-center">Come in your scariest costume character to win amazing prizes.</p>
+                <div class="mt-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-0">12.00 $</p>
+                    <a href="details.html" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Recursos_Amazing_Events_Task_1/music_concert.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold text-center mb-auto">Metallica in concert</h5>
+                <p class="card-text text-center">The only concert of the most emblematic band in the world.</p>
+                <div class="mt-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-0">150.00 $</p>
+                    <a href="details.html" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Recursos_Amazing_Events_Task_1/books.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold text-center mb-auto">School Book Fair</h5>
+                <p class="card-text text-center">Bring your unused school book and bring the one you need.</p>
+                <div class="mt-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-0">1.00 $</p>
+                    <a href="details.html" class="btn btn-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <div class="container-fluid">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+      <ul class="nav col-12 col-md-4 justify-content-end list-unstyled d-flex  justify-content-center">
+        <li class="ms-3"><a href="https://www.instagram.com/"><img src="Recursos_Amazing_Events_Task_1/instagram.png"
+              id="social" alt=""></a></li>
+        <li class="ms-3"><a href="https://www.whatsapp.com/?lang=es_LA"></a><img
+            src="Recursos_Amazing_Events_Task_1/whatsapp.png" id="social" alt=""></li>
+        <li class="ms-3"><a href="https://www.facebook.com/?locale=es_LA"></a><img
+            src="Recursos_Amazing_Events_Task_1/facebook.png" id="social" alt=""></li>
+      </ul>
+
+      <div class="col-12  col-md-3 d-flex align-items-center justify-content-center ">
+        <span class="mt-3 text-align-center">&copy; Created By: Sebastian Buritica</span>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
