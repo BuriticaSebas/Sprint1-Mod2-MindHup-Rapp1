@@ -51,3 +51,57 @@ span{
     height: 100%;
 }
 
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+
+
+
+body{
+    font-size: 1.3rem;
+}
+
+
+#logo{
+    max-width: 10rem;
+}
+
+.card{
+    width:18rem;
+}
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+   
+}
+
+span{
+    color: rgb(0, 0, 0);
+}
+
+#social{
+    max-width: 3rem;
+}
+
+.nav-link:hover{
+    color: rgb(100, 100, 100);
+}
+
+.home-image{
+    filter: brightness(50%);
+}
+
+#details-img{
+    height: 100%;
+}
+
